@@ -1,0 +1,58 @@
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  background-image: url("../images/bg_white.png");
+  background-attachment: fixed;
+  background-color: #333333;
+  color: #333333;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+a {
+  font-weight: strong;
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: #0099FF;
+  font-weight: bolder
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+h1 {
+  font-family: 'Rockwell', serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Rockwell', serif;
+}
+
+.jumbotron {
+  background-image: url('../images/bg_grey.png');
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Rockwell',serif;
+  border-bottom: groove;
+}
+
+.landing {
+  height:400px;
+}
+
+.viaje {
+  width: 800px;
+  
+}
